@@ -23,11 +23,11 @@ export const Home = () => {
     centerMode: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToShow: 4,
+    slidesToScroll: 2,
     initialSlide: 0,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    autoplay: false,
+    // autoplaySpeed: 2000,
     cssEase: "linear",
     swipeToSlide:true,
     focusOnSelect:true,
@@ -35,15 +35,15 @@ export const Home = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 2,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
         }
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         }
       },
@@ -62,7 +62,7 @@ export const Home = () => {
       <div className="container py-5 px-4">
         <div className="row g-4">
 
-          <div className="col-lg-3">
+          <div className="col-lg-3 hide-hero">
             <BlogCard />
 
             <ListCard />
@@ -81,7 +81,7 @@ export const Home = () => {
             </div>
           </div>
 
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-sm-10 mx-sm-auto">
             <BlogCard />
 
             <ListCard />
@@ -94,9 +94,9 @@ export const Home = () => {
 
       {/* tranding news  */}
       <section id="news-section" className='dark-section py-5'>
-        <div className="container d-flex pb-4">
+        <div className="container d-flex flex-wrap pb-4">
           <TrandingPost />
-          <div className="other_news w-50">
+          <div className="other_news col-xl-6 ">
             <HorizontalCard />
             <HorizontalCard />
             <HorizontalCard />
@@ -204,11 +204,11 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className='col-lg-3'>
+          <div className='mt-4 col-lg-3 col-md-6'>
             <BlogCard />
             <BlogCard />
           </div>
-          <div className='col-lg-3'>
+          <div className='mt-4 col-lg-3 col-md-6'>
             <BlogCard />
             <BlogCard />
           </div>
@@ -221,22 +221,22 @@ export const Home = () => {
           <h2 className="border-bottom border-secondary border-3 my-4"><span className='trending-header'>intertainment</span></h2>
 
           <div className='row'>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
               <BlogCard />
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
               <BlogCard />
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
               <BlogCard />
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
               <BlogCard />
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
               <BlogCard />
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
               <BlogCard />
             </div>
           </div>
@@ -247,17 +247,17 @@ export const Home = () => {
       <div className='container py-5 px-4'>
         <h2 className="border-bottom border-secondary border-3 my-4"><span className='trending-header'>POLITICS</span></h2>
         <div className='row'>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 col-sm-8 mx-sm-auto'>
             <BlogCard />
           </div>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 col-sm-6'>
             <BlogCard />
           </div>
-          <div className='col-lg-4'>
+          <div className='col-lg-4 col-sm-6'>
             <BlogCard />
           </div>
         </div>
-        <div className='d-flex flex-wrap justify-content-evenly col-lg-10 mx-auto'>
+        <div className='d-flex flex-wrap justify-content-evenly col-lg-11 mx-auto'>
           <ListCard />
           <ListCard />
           <ListCard />
@@ -269,7 +269,7 @@ export const Home = () => {
 
       {/* latest news */}
       <section className='dark-section' >
-        <div className='container py-5 px-4 col-8'>
+        <div className='container py-5 col-lg-10'>
           <h2 className="border-bottom border-secondary border-3 my-4"><span className='trending-header'>latest news</span></h2>
 
           <div className='row'>

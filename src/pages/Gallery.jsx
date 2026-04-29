@@ -9,7 +9,7 @@ export const Gallery = () => {
           <h4 className='gallery-title' >We Are Getblog Studio. <br /> Australia based art & design studio</h4>
         </div>
         <div className='col-md-12 d-flex flex-wrap'>
-          <div className='col-md-3 col-sm-6 d-flex flex-column justify-content-evenly'>
+          <div className='col-lg-3 col-sm-6 d-flex flex-column justify-content-evenly'>
             <div className='img-item m-2'>
               <img src='https://getblog.vercel.app/static/media/3.94d06b6d92e8ecc62c46.jpg' alt="" className='odd-col-img' />
             </div>
@@ -23,7 +23,7 @@ export const Gallery = () => {
               <img src='https://getblog.vercel.app/static/media/3.94d06b6d92e8ecc62c46.jpg' alt="" className='odd-col-img' />
             </div>
           </div>
-          <div className='col-md-3 col-sm-6 d-flex flex-column justify-content-evenly'>
+          <div className='col-lg-3 col-sm-6 d-flex flex-column justify-content-evenly'>
             <div className='img-item m-2'>
               <img src='https://getblog.vercel.app/static/media/2.322d4717c48295bf8aeb.jpg' alt="" className='even-col-img' />
             </div>
@@ -34,7 +34,7 @@ export const Gallery = () => {
               <img src='	https://getblog.vercel.app/static/media/2.322d4717c48295bf8aeb.jpg' alt="" className='even-col-img' />
             </div>
           </div>
-          <div className='col-md-3 col-sm-6 d-flex flex-column justify-content-evenly'>
+          <div className='col-lg-3 col-sm-6 d-flex flex-column justify-content-evenly'>
             <div className='img-item m-2'>
               <img src='https://getblog.vercel.app/static/media/3.94d06b6d92e8ecc62c46.jpg' alt="" className='odd-col-img' />
             </div>
@@ -48,7 +48,7 @@ export const Gallery = () => {
               <img src='https://getblog.vercel.app/static/media/3.94d06b6d92e8ecc62c46.jpg' alt="" className='odd-col-img' />
             </div>
           </div>
-          <div className='col-md-3 col-sm-6 d-flex flex-column justify-content-evenly'>
+          <div className='col-lg-3 col-sm-6 d-flex flex-column justify-content-evenly'>
             <div className='img-item m-2'>
               <img src='	https://getblog.vercel.app/static/media/2.322d4717c48295bf8aeb.jpg' alt="" className='even-col-img' />
             </div>

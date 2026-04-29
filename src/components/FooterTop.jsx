@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FooterTop = () => {
     return (
-        <div className='col-6 py-5 mx-auto text-center'>
+        <div className='col-lg-6 col-md-8 py-5 mx-auto text-center'>
             <h2>Sign Up for Our Newsletters</h2>
             <p className='text-secondary font-weight-bold'>Get notified of the best deals on our WordPress themes.</p>
             <div className='footer-subscribe'>

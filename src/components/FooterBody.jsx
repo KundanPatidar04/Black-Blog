@@ -5,17 +5,17 @@ import { ListCard } from './ListCard'
 
 export const FooterBody = () => {
   return (
-    <div className='border-top border-bottom py-5 d-flex'>
-        <div className='col-4 p-1'>
+    <div className='border-top border-bottom py-5 d-flex flex-wrap'>
+        <div className='col-lg-4 col-sm-8 p-1'>
             <h2 className="border-bottom border-secondary border-3 my-4"><span className='trending-header'>Education</span></h2>
             <ListCard/>
             <ListCard/>
             <ListCard/>
             <ListCard/>
         </div>
-        <div className='col-4 p-1'>
+        <div className='col-lg-4 col-sm-10 p-1'>
             <h2 className="border-bottom border-secondary border-3 my-4"><span className='trending-header'>Education</span></h2>
-            <ul className='list-unstyled px-2'>
+            <ul className='list-unstyled px-2 footer-edu-list'>
                 <li className='footer-links'>
                     <a href="#" className=''>Demos</a>
                 </li>
@@ -44,7 +44,7 @@ export const FooterBody = () => {
                 <a href="#" className='tag-link badge'>#Originals</a>
             </ul>
         </div>
-        <div className='col-4 p-1'>
+        <div className='col-lg-4 col-sm-8 p-1'>
             <h2 className="border-bottom border-secondary border-3 my-4"><span className='trending-header'>articles</span></h2>
             <ListCard/>
             <ListCard/>

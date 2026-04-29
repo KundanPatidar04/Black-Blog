@@ -3,7 +3,7 @@ import mainImg from '../assets/images/blog.jpg'
 
 export const TrandingPost = () => {
     return (
-        <div className="w-50 news_post">
+        <div className="col-md-10 col-xl-6 mx-md-auto news_post">
             <div className="news-post-data">
                 <img src={mainImg} className="news-big-img" alt=""></img>
                 <div className="w-100">

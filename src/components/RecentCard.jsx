@@ -3,9 +3,9 @@ import React from 'react'
 export const RecentCard = () => {
   return (
     <>
-    <div className='col-6 border border-secondary p-0'>
+    <div className='col-lg-6 col-sm-10 mt-3 mx-auto border border-secondary p-0'>
         <div className='col-12'>
-            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=500" alt="" className="img-fluid mb-2" />
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=500" alt="" className="mb-2 w-100" />
         </div>
         <div className='col-12 p-4'>
             <div className="category badge bg-info">STYLE</div>

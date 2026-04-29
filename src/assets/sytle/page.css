@@ -5,7 +5,7 @@ body {
     color: #fff;
 }
 
-.dark-section{
+.dark-section {
     background-color: #121212;
 }
 
@@ -28,7 +28,7 @@ body {
 
 
 /* tranding section */
-.tranding-section{
+.tranding-section {
     margin-top: 100px;
 }
 
@@ -53,35 +53,64 @@ body {
 }
 
 /* block detail page */
-.blocg-detail{
+.blocg-detail {
     margin-top: 110px;
 }
-.blocg-title{
+
+.blocg-title {
     font-size: 50px;
     /* letter-spacing: 1px; */
 }
-.auther-img{
+
+.auther-img {
     width: 45px;
     height: 45px;
     border-radius: 50%;
 }
-.dropcap{
+
+.dropcap {
     float: left;
     font-weight: 700;
     line-height: 0.8;
 }
 
-.comment-form{
+.comment-form {
     border: none;
 }
-.comment-avtar{
+
+.comment-avtar {
     width: 45px;
     height: 45px;
     /* border-radius: 50%; */
 }
-.comment-form-div{
+
+.comment-form-div {
     height: 200px;
 }
-.comment-form-div textarea{
+
+.comment-form-div textarea {
     resize: none;
+}
+
+
+/* ======================================= */
+
+.icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+}
+
+.empty-head {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #f65e27;
+}
+
+.empty-para {
+    font-size: 1.1rem;
+    color: #4cec84;
+    max-width: 400px;
+    line-height: 1.6;
 }

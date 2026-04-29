@@ -3,8 +3,8 @@ import React from 'react'
 export const TrendingListCard = ({count}) => {
   return (
     <>
-      <div className='col-lg-6 d-flex'>
-        <div className='col-2 p-1 tranding-img-card'>
+      <div className='col-lg-6 col-md-8 mx-md-auto d-flex'>
+        <div className='col-lg-2 col-md-3 p-1 tranding-img-card'>
           <span className='rank-badge rounded-circle px-2'>{count}</span>
           <img src="https://authentictheme.com/the-locals/wp-content/uploads/sites/48/2017/10/authentic-demo-image-00026-160x160.jpg" alt="" className='w-100 rounded-circle' />
         </div>
