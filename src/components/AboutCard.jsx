@@ -4,7 +4,7 @@ import cardImg from '../assets/images/cardImg.jpg'
 export const AboutCard = () => {
     return (
         <section>
-            <div className='container d-flex flex-wrap justify-content-center p-5'>
+            <div className='container d-flex flex-wrap justify-content-center p-sm-5 p-4'>
                 <div className='col-md-6 col-sm-10'>
                     <img src={cardImg} alt="" className='p-3 about-card-img' />
                 </div>

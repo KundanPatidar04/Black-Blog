@@ -155,10 +155,6 @@
     margin-bottom: 0px;
 }
 
-
-
-
-
 /* =================================================== */
 
 .news_post {
@@ -218,7 +214,6 @@
     color: #fff;
     position: relative;
     bottom: 28px;
-    left: 16px;
 }
 
 
@@ -454,7 +449,6 @@
 .gallery-box {
     display: grid;
     grid-template-columns: 23% 27% 23% 27%;
-    /* grid-template-rows: 300px 350px; */
 }
 
 .img-item {
@@ -469,16 +463,12 @@
 }
 
 .odd-col-img {
-    /* width: 260px; */
     width: 100%;
     aspect-ratio: 1.3/1;
-    /* height: 200px; */
 }
 
 .even-col-img {
-    /* width: 260px; */
     width: 100%;
-    /* height: 260px; */
     aspect-ratio: 1;
 }
 
@@ -533,6 +523,7 @@
 
     .footer-edu-list {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .about-card-img {
@@ -544,10 +535,92 @@
     .gallery-title {
         font-size: 28px;
     }
+
+    .short-news h5 {
+        font-size: 1rem;
+    }
 }
 
 @media (max-device-width: 575px) {
+    .meta-info {
+        font-size: 0.65rem;
+    }
+
+    .other_news_box {
+        width: 70%;
+    }
+
     .card-trending {
         aspect-ratio: 4 / 3;
     }
+
+    .post-big-title {
+        font-size: 2rem;
+        bottom: 63px;
+        line-height: 32px;
+    }
+
+    .headline-lg {
+        font-size: 2rem;
+    }
+}
+
+@media (max-device-width: 400px) {
+    .featured-card {
+        padding: 25px;
+    }
+
+    .category {
+        font-size: 0.6rem;
+        margin-bottom: 7px;
+    }
+
+    .category-text-1 {
+        position: absolute;
+        bottom: auto;
+        top: 0px;
+        left: 5px;
+    }
+
+    .post-big-title {
+        font-size: 1.7rem;
+        bottom: 56px;
+        line-height: 30px;
+    }
+
+    .posted-by {
+        font-size: 13px;
+    }
+
+    .headline-lg {
+        font-size: 1.7rem;
+        margin-bottom: 12px;
+    }
+
+    .other_news_box {
+        width: 80%;
+    }
+
+    .other_news_box img {
+        width: 85px;
+        height: 85px;
+        margin: auto 0px;
+    }
+    
+    .about-card-p {
+            font-size: 11px;
+        }
+
+    .about-card-h {
+        font-size: 30px;
+    }
+
+    .about-skill-h {
+    font-size: 35px;
+}
+.gallery-title {
+        font-size: 25px;
+        letter-spacing: 0.8px;
+    }
+
 }

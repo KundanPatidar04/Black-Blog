@@ -3,7 +3,7 @@ import { ExperienceCard } from './ExperienceCard'
 
 export const AboutSkills = () => (
   <section>
-    <div className='container d-flex flex-wrap justify-content-center p-5'>
+    <div className='container d-flex flex-wrap justify-content-center p-sm-5 p-4'>
       <div className='col-xl-6 col-lg-5 col-10'>
         <h3 className='about-skill-h'>Our Skills</h3>
         <p className='about-card-p'>We are Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsum ducimus excepturi harum obcaecati incidunt ex aspernatur ad eius asperiores.</p>
